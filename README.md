@@ -97,3 +97,9 @@ git int
       ```
         git add -p
       ```
+    
+
+<h1 align="center">Git Commit : git commit</h3>
+
+<p> <i> Commit helps to track what changes is done in that file. </i> </p>
+
