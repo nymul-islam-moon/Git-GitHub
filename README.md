@@ -97,3 +97,20 @@ git int
       ```
         git add -p
       ```
+    
+
+<h1 align="center">Git Commit : git commit</h3>
+
+<p> <i> Commit helps to track what changes is done in that file. </i> </p>
+
+<br/>
+
+## Type of `git commit` 
+1. commit with a single message
+   ```git
+    git commit -m "message"
+   ```
+2. commit with title and messages
+   ```git
+    git commit -m "title" -m "messages" 
+   ```
