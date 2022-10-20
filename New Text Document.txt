@@ -1,0 +1,14 @@
+1. Roll Back Specific migration (php artisan migrate:rollback --path=/database/migrations/your-specific-migration.php)
+
+Lee Find Nav Bar
+
+
+roll back code 
+up method 
+1. $table->unsignedBigInteger('asset_id')->nullable()->change()->after('id');
+down method
+1. $table->unsignedBigInteger('asset_id')->nullable(false)->change();
+2. $table->dropForeign('asset_depreciations_asset_id_foreign');
+
+
+
