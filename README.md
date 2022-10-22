@@ -114,3 +114,47 @@ git int
    ```git
     git commit -m "title" -m "messages" 
    ```
+
+<h1 align="center">Git Branch</h3>
+
+<p> <i> Branch helps to handle projects </i> </p>
+
+<br/>
+
+
+```git
+  git branch
+```
+<p>Show all the branches</p>
+
+<br/>
+
+### 1. Creating Branch
+
+<br/>
+
+- First one is for creating branch and at the same time switch to tha enew branch which was created.
+
+  ```git
+    git checkout -b branch_name
+  ```
+- Second one just create a new branch 
+
+  ```git
+    git branch branch_name
+  ```
+
+
+### 2. Switch to a branch
+
+- First one is for creating branch and at the same time switch to tha enew branch which was created.
+
+  ```git
+    git checkout -b branch_name
+  ```
+- Second one is fow direct switch to the branch 
+
+  ```git
+    git checkout branch_name
+  ```
+
