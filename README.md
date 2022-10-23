@@ -110,7 +110,7 @@ git int
    ```git
     git commit -m "message"
    ```
-2. commit with title and messages
+2. comit with title and messages
    ```git
     git commit -m "title" -m "messages" 
    ```
@@ -121,10 +121,10 @@ git int
 
 <br/>
 
-
 ```git
   git branch
 ```
+
 <p>Show all the branches</p>
 
 <br/>
@@ -138,12 +138,14 @@ git int
   ```git
     git checkout -b branch_name
   ```
+
 - Second one just create a new branch 
 
   ```git
     git branch branch_name
   ```
 
+<br/>
 
 ### 2. Switch to a branch
 
@@ -152,9 +154,42 @@ git int
   ```git
     git checkout -b branch_name
   ```
+  
 - Second one is fow direct switch to the branch 
 
   ```git
     git checkout branch_name
   ```
+
+
+<h1 align="center">Git Restore and Git Undo</h3>
+
+## 1. Undo Commit
+  
+- <p>Undo most recent commit for git local</p>
+  
+    ```git
+      git reset head~1
+    ```
+  
+ - <p>Undo the last second commit</p>
+
+    ```git
+      git reset head~2
+    ```
+
+## 2. Undo un-stage changes
+  <p>Undo the un-stage changes to teh last commit</p>
+
+  - For all unstaged files in current working directory use:
+
+    ```git
+      git restore .
+    ```
+
+  - For a specific file use:
+
+    ```git
+      git restore path/file_name
+    ```
 
