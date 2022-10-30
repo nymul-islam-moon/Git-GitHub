@@ -1,6 +1,11 @@
 
-# <b> About This Repository
-<p> This Repository is created for Git and GitHub uses and commands.</p>
+<div align="center">
+
+  #  **`About This Repository`**
+
+  ## This Repository is created for Git and GitHub uses and commands.
+
+</div>
 
 <br/>
 
@@ -193,3 +198,5 @@ git int
       git restore path/file_name
     ```
 
+ Syntax |
+ | :---: |
