@@ -138,7 +138,7 @@ git int
 
 <br/>
 
-- First one is for creating branch and at the same time switch to tha enew branch which was created.
+- First one is for creating branch and at the same time switch to tha enew branch which was created locally.
 
   ```git
     git checkout -b branch_name
@@ -148,6 +148,12 @@ git int
 
   ```git
     git branch branch_name
+  ```
+
+- Create branch remote repository
+
+  ```git
+    git push -u origin branch_name
   ```
 
 <br/>
@@ -166,6 +172,46 @@ git int
     git checkout branch_name
   ```
 
+<br/>
+
+### 3. Delete branch
+
+- Delete local branch
+
+  - Delete local branch after merge
+
+    ```git
+      git branch -d localBranchName
+    ```
+
+  - Delete local branch without merge. Force Delete
+
+    ```git
+      git branch -D localBranchName
+    ```
+
+- Delete remote branch
+
+  - Delete remote branch
+
+    ```git
+      git push origin --delete branch_name
+    ```
+
+<br/>
+
+### 4. SHow all branches list
+
+- Show all branches locally
+
+  ```git
+    git branch -a
+  ```
+
+
+
+
+<br/>
 
 <h1 align="center">Git Restore and Git Undo</h3>
 
