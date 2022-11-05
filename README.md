@@ -165,8 +165,8 @@ git int
   ```git
     git checkout -b branch_name
   ```
-  
-- Second one is fow direct switch to the branch 
+
+- Second one is fow direct switch to the branch
 
   ```git
     git checkout branch_name
@@ -216,13 +216,13 @@ git int
 <h1 align="center">Git Restore and Git Undo</h3>
 
 ## 1. Undo Commit
-  
+
 - <p>Undo most recent commit for git local</p>
-  
+
     ```git
       git reset head~1
     ```
-  
+
  - <p>Undo the last second commit</p>
 
     ```git
@@ -243,6 +243,3 @@ git int
     ```git
       git restore path/file_name
     ```
-
- Syntax |
- | :---: |
