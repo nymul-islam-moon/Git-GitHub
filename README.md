@@ -7,6 +7,12 @@
 
 </div>
 
+</br>
+
+# Menu
+
+- ## [Git Branch](#git-branch-1)
+
 <br/>
 
 # Git Commands
@@ -30,7 +36,7 @@
 <p>For Version Controlling with you have to initialize git in that directory. For Initialize git in any directory follow the steps bellow.</p>
 
 ```git
-git int
+  git int
 ```
 <p>This command will create a folder called (.git) in that directory</p>
 
@@ -42,13 +48,15 @@ git int
 
 - HTPS
   - https://github.com/ repository link
+
     ```git
-    git clone https://github.com/ repository link
+      git clone https://github.com/ repository link
     ```
 - SSH
   - git@github.com: repository link
+
     ```git
-    git clone git@github.com: repository link
+      git clone git@github.com: repository link
     ```
 
 <p>After having (.git) folder in your directory git wil start tracking all the changes in that directory.</p>
@@ -86,7 +94,7 @@ git int
 
       ```git
         git add .
-      ```  
+      ```
 
       ```
         git add -A
@@ -97,12 +105,12 @@ git int
       ```git
         git add file_path
       ```
-  
+
   3. Stage Specific changes from all files
       ```
         git add -p
       ```
-    
+
 
 <h1 align="center">Git Commit : git commit</h3>
 
@@ -110,17 +118,17 @@ git int
 
 <br/>
 
-## Type of `git commit` 
+## Type of `git commit`
 1. commit with a single message
    ```git
-    git commit -m "message"
+      git commit -m "message"
    ```
 2. comit with title and messages
    ```git
-    git commit -m "title" -m "messages" 
+      git commit -m "title" -m "messages"
    ```
 
-<h1 align="center">Git Branch</h3>
+<h1 align="center" id="git-branch">Git Branch</h3>
 
 <p> <i> Branch helps to handle projects </i> </p>
 
@@ -144,7 +152,7 @@ git int
     git checkout -b branch_name
   ```
 
-- Second one just create a new branch 
+- Second one just create a new branch
 
   ```git
     git branch branch_name
@@ -200,7 +208,7 @@ git int
 
 <br/>
 
-### 4. SHow all branches list
+### 4. Show all branches list
 
 - Show all branches locally
 
@@ -209,13 +217,27 @@ git int
   ```
 
 
+### 5. Rename a branch
+
+  - Rename the current branch
+
+    ```git
+      git branch -M name
+    ```
 
 
 <br/>
 
 <h1 align="center">Git Restore and Git Undo</h3>
 
-## 1. Undo Commit
+##  ***[`git checkout`](##`git-reset`) | `git clean` | `git revert` | `git reset` | `git rm`***
+
+</br>
+</br>
+
+## `git reset`
+
+  Undo changes to the last commit
 
 - <p>Undo most recent commit for git local</p>
 
@@ -223,16 +245,16 @@ git int
       git reset head~1
     ```
 
- - <p>Undo the last second commit</p>
+ - <p>Undo the last second commit for git local</p>
 
     ```git
       git reset head~2
     ```
 
 ## 2. Undo un-stage changes
-  <p>Undo the un-stage changes to teh last commit</p>
+  <p>Undo the un-stage changes</p>
 
-  - For all unstaged files in current working directory use:
+  - For all un-staged files in current working directory use:
 
     ```git
       git restore .
