@@ -11,7 +11,13 @@
 
 # Menu
 
-- ## [Git Branch](#git-branch-1)
+- <h2 id="git-branch-1"> <a href="git-branch-2"> Git Branch </a></h2>
+
+<!-- - <h2>Git Branch</h2> -->
+
+
+<!-- - ## [Git Branch](#git-branch-1) -->
+
 
 <br/>
 
@@ -128,7 +134,7 @@
       git commit -m "title" -m "messages"
    ```
 
-<h1 align="center" id="git-branch">Git Branch</h3>
+<h1 align="center" id="git-branch-2"> <a href="git-branch-1"> Git Branch</h3>
 
 <p> <i> Branch helps to handle projects </i> </p>
 
