@@ -1,5 +1,0 @@
-1. git merge --abort [ Remove last marge ]
-2. git restore file_name [ to discard changes in working directory ]
-3. git add file_name [ to update what will be committed ]
-4. git revert [  ]
-5. git branch -M name [ Rename the current Branch ]
