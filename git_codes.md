@@ -9,3 +9,5 @@
 # 5. git revert [  ]
 
 # 6. git branch -M name [ Rename the current Branch ]
+
+# 7 git romete -v [check git repossitory links]
