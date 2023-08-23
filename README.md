@@ -230,7 +230,7 @@
 
 <h1 align="center">Git Restore and Git Undo</h3>
 
-##  ***[`git checkout`](##`git-reset`) | `git clean` | `git revert` | `git reset` | `git rm`***
+##  ***[`git checkout`] | `git clean` | `git revert` | [`git reset`](##`git-reset`) | `git rm`***
 
 </br>
 </br>
