@@ -269,7 +269,7 @@
 
 <h1 align="center" id="git-count-commits-short-log-view">Git Count Commits | Short Log View</h3>
 
-##  ***[`git shortlog`]() | [`git rev-list --count <revision>`](#) | `git rev-list --count --all`***
+##  ***[`git shortlog`](`#git-shortlog`) | [`git rev-list --count <revision>`](#) | `git rev-list --count --all`***
 
 </br>
 </br>
