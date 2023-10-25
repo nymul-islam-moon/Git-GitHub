@@ -281,3 +281,25 @@ Show all the logs in one line as assending order
 ```git
   git shortlog
 ```
+
+</br>
+</br>
+
+## `git rev-list --count <branch>`
+
+Show all the logs and logs count for specific branch 
+
+```git
+  git rev-list --count main
+```
+
+</br>
+</br>
+
+## `git rev-list --count --all`
+
+Show all the logs count
+
+```git
+ git rev-list --count --all
+```
