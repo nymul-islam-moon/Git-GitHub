@@ -12,7 +12,7 @@
 # Menu
 
 - ## [Git Branch](#git-branch-1)
-- ## [Git Count Commits | Short Log View](#git-count-commits-short-log-view)
+- ## [Git Count Commits | Short Log View](#git-count-commits-short-log-view-1)
 
 <br/>
 
