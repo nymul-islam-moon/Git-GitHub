@@ -235,7 +235,7 @@
 </br>
 </br>
 
-## `git reset`
+<h2 id="git-reset">git reset</h2>
 
   Undo changes to the last commit
 
@@ -268,7 +268,7 @@
 
 <h1 align="center">Git Count Commits | Short Log View</h3>
 
-##  ***[`git shortlog`](`git-shortlog`) | [`git rev-list --count <revision>`]() | `git rev-list --count --all`***
+##  ***[`git shortlog`](#git-shortlog) | [`git rev-list --count <revision>`]() | `git rev-list --count --all`***
 
 </br>
 </br>
