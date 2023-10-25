@@ -12,6 +12,7 @@
 # Menu
 
 - ## [Git Branch](#git-branch-1)
+- ## [Git Count Commits | Short Log View](#git-count-commits-short-log-view)
 
 <br/>
 
@@ -228,7 +229,7 @@
 
 <br/>
 
-<h1 align="center">Git Restore and Git Undo</h3>
+<h1 align="center" id="">Git Restore and Git Undo</h3>
 
 ##  ***[`git checkout`] | `git clean` | `git revert` | [`git reset`](##`git-reset`) | `git rm`***
 
@@ -266,16 +267,16 @@
       git restore path/file_name
     ```
 
-<h1 align="center">Git Count Commits | Short Log View</h3>
+<h1 align="center" id="git-count-commits-short-log-view">Git Count Commits | Short Log View</h3>
 
-##  ***[`git shortlog`](#git-shortlog) | [`git rev-list --count <revision>`]() | `git rev-list --count --all`***
+##  ***[`git shortlog`]() | [`git rev-list --count <revision>`](#) | `git rev-list --count --all`***
 
 </br>
 </br>
 
 ## `git shortlog`
 
-Show all the logs one line in assending order 
+Show all the logs in one line as assending order 
 
 ```git
   git shortlog
