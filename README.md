@@ -265,3 +265,18 @@
     ```git
       git restore path/file_name
     ```
+
+<h1 align="center">Git Count Commits | Short Log View</h3>
+
+##  ***[`git shortlog`](`git-shortlog`) | [`git rev-list --count <revision>`]() | `git rev-list --count --all`***
+
+</br>
+</br>
+
+## `git shortlog`
+
+Show all the logs one line in assending order 
+
+```git
+  git shortlog
+```
