@@ -129,6 +129,18 @@
       git commit -m "title" -m "messages"
    ```
 
+<h1 align="center">Git Add and Commit one line : git commit -am "message"</h3>
+
+<p> <i> This command helps to add and commit at a same time one single line </i> </p>
+
+<br/>
+
+1. add and commit with a single message
+   ```git
+      git commit -am "message"
+   ```
+
+
 <h1 align="center" id="git-branch">Git Branch</h3>
 
 <p> <i> Branch helps to handle projects </i> </p>
