@@ -37,7 +37,7 @@
 <p>For Version Controlling with you have to initialize git in that directory. For Initialize git in any directory follow the steps bellow.</p>
 
 ```git
-  git int
+  git init
 ```
 <p>This command will create a folder called (.git) in that directory</p>
 
