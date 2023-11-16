@@ -11,8 +11,30 @@
 
 # Menu
 
-- ## [Git Branch](#git-branch-1)
-- ## [Git Count Commits | Short Log View](#git-count-commits-short-log-view-1)
+- [About This Repository](#about-this-repository)
+- [Git Commands](#git-commands)
+  - [Start Controlling With Git](#start-controlling-with-git)
+    - [Git Initializing](#git-initializing)
+    - [Git Clone](#git-clone)
+  - [Git Status: Inspecting a Repository](#git-status-inspecting-a-repository)
+  - [Git Staging: `git add`](#git-staging-git-add)
+    - [Types of `git add` command](#types-of-git-add-command)
+  - [Git Commit: `git commit`](#git-commit-git-commit)
+    - [Type of `git commit`](#type-of-git-commit)
+  - [Git Add and Commit one line: `git commit -am "message"`](#git-add-and-commit-one-line-git-commit-am-message)
+- [Git Branch](#git-branch)
+  - [Creating Branch](#creating-branch)
+  - [Switch to a Branch](#switch-to-a-branch)
+  - [Delete Branch](#delete-branch)
+  - [Show all Branches List](#show-all-branches-list)
+  - [Rename a Branch](#rename-a-branch)
+- [Git Restore and Git Undo](#git-restore-and-git-undo)
+  - [git reset](#git-reset)
+  - [Undo un-stage changes](#undo-un-stage-changes)
+- [Git Count Commits | Short Log View](#git-count-commits-short-log-view)
+  - [`git shortlog`](#git-shortlog)
+  - [`git rev-list --count <branch>`](#git-rev-list---count-branch)
+  - [`git rev-list --count --all`](#git-rev-list---count--all)
 
 <br/>
 
