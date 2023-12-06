@@ -71,16 +71,25 @@
 
 - HTPS
   - https://github.com/ repository link
-
     ```git
       git clone https://github.com/ repository link
     ```
 - SSH
   - git@github.com: repository link
-
     ```git
       git clone git@github.com: repository link
     ```
+- Specific Branch
+  - git@github.com: repository Or https://github.com/ repository link
+    ```git
+      git clone -b <branch> <remote_repo>
+    ```
+- Specific Directory
+  - git@github.com: repository Or https://github.com/ repository link
+    ```git
+      git clone <remote_repo> <directory>
+    ```
+     
 
 <p>After having (.git) folder in your directory git wil start tracking all the changes in that directory.</p>
 
