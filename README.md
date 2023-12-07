@@ -86,7 +86,7 @@
       ```git
         git clone <remote_repo> <directory>
       ```
-- [Git Local to Remote Connect](#git-local-to-remote-connect)
+- ### [Git Local to Remote Connect](#git-local-to-remote-connect)
   - First create a new repository in GitHub with the name of branch is main, Then redirect to your local project and run the following command
     ```git
       git init
