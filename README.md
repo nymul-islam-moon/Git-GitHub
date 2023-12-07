@@ -57,36 +57,11 @@
 
 <br/>
 
-# Git Commands
-
-~~jdsfjhds fdskjh sdfhsdfhdsfkh sdkhdfj~~
-
 ## 1. Start Controlling With Git
 
-### There are two ways to control with git or initialize git
+## [Remote](#remote)
 
-- Git Initialize
-
-- Git Clone
-
-<br/>
-
-### 1. <b>Git Initializing </b>
-
----
-
-<p>For Version Controlling with you have to initialize git in that directory. For Initialize git in any directory follow the steps bellow.</p>
-
-```git
-  git init
-```
-<p>This command will create a folder called (.git) in that directory</p>
-
-
-<br/>
-
-### 2. <b>Git Clone </b>
-<p>The Second methode for version controll with git is to clone any repositoy from github using HTTPS or SSH key</p>
+### 1. <b>GitHub Remote to Local OR GitHub Local to Remote</b>
 
 - HTPS
   - https://github.com/ repository link
@@ -108,7 +83,37 @@
     ```git
       git clone <remote_repo> <directory>
     ```
-     
+- Existing Project to New Git Repository
+  - First create a new repository in GitHub with the name of branch is main, Then redirect to your local project and run the following command
+    ```git
+      git init
+      git add .
+      git commit -m "message"
+      git checkout -b main
+      git branch -D master
+      git remote add origin <remote_repo>
+      git push -u origin main
+    ```
+  - The following commend will add your project to GitHub repository in main branch and delete your local master branch.
+  
+
+<br/>
+
+### 1. <b>Git Initializing </b>
+
+---
+
+<p>For Version Controlling with you have to initialize git in that directory. For Initialize git in any directory follow the steps bellow.</p>
+
+```git
+  git init
+```
+<p>This command will create a folder called (.git) in that directory</p>
+
+
+<br/>
+
+   
 
 <p>After having (.git) folder in your directory git wil start tracking all the changes in that directory.</p>
 
