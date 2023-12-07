@@ -37,7 +37,9 @@
     - [`git rev-list --count --all`](#git-rev-list---count--all)
 
 - ### [Remote](#remote)
-  - [Git Clone](#git-clone)
+  - [Git Connection to Local Project](#git-connect)
+    - [Git Remote to Local Connect](#git-remote-to-local-connect)
+    - [Git Local to Remote Connect](#git-local-to-remote-connect)
   - [Git Push](#git-push)
   - [Git Pull](#git-pull)
   - [Git Fetch](#git-fetch)
@@ -60,30 +62,31 @@
 ## 1. Start Controlling With Git
 
 ## [Remote](#remote)
+### [Git Connection to Local Project](#git-connect)
 
-### 1. <b>GitHub Remote to Local OR GitHub Local to Remote</b>
+- ### [Git Remote to Local Connect](#git-remote-to-local-connect)
 
-- HTPS
-  - https://github.com/ repository link
-    ```git
-      git clone https://github.com/ repository link
-    ```
-- SSH
-  - git@github.com: repository link
-    ```git
-      git clone git@github.com: repository link
-    ```
-- Specific Branch
-  - git@github.com: repository Or https://github.com/ repository link
-    ```git
-      git clone -b <branch> <remote_repo>
-    ```
-- Specific Directory
-  - git@github.com: repository Or https://github.com/ repository link
-    ```git
-      git clone <remote_repo> <directory>
-    ```
-- Existing Project to New Git Repository
+  - HTPS
+    - https://github.com/ repository link
+      ```git
+        git clone https://github.com/ repository link
+      ```
+  - SSH
+    - git@github.com: repository link
+      ```git
+        git clone git@github.com: repository link
+      ```
+  - Specific Branch
+    - git@github.com: repository Or https://github.com/ repository link
+      ```git
+        git clone -b <branch> <remote_repo>
+      ```
+  - Specific Directory
+    - git@github.com: repository Or https://github.com/ repository link
+      ```git
+        git clone <remote_repo> <directory>
+      ```
+- [Git Local to Remote Connect](#git-local-to-remote-connect)
   - First create a new repository in GitHub with the name of branch is main, Then redirect to your local project and run the following command
     ```git
       git init
@@ -94,7 +97,7 @@
       git remote add origin <remote_repo>
       git push -u origin main
     ```
-  - The following commend will add your project to GitHub repository in main branch and delete your local master branch.
+    - The following commend will add your project to GitHub repository in main branch and delete your local master branch.
   
 
 <br/>
