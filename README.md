@@ -22,6 +22,19 @@
   - [Git Commit: `git commit`](#git-commit-git-commit)
       - [Type of `git commit`](#type-of-git-commit)
   - [Git Add and Commit one line: `git commit -am "message"`](#git-add-and-commit-one-line-git-commit-am-message)
+- [Git History](#git-history)
+  - [Git Log](#git-log)
+  - [Git Log with Graph](#git-log-with-graph)
+  - [Git Log with Graph and One Line](#git-log-with-graph-and-one-line)
+  - [Git Log with Graph and One Line and Decorate](#git-log-with-graph-and-one-line-and-decorate)
+  - [Git Log with Graph and One Line and Decorate and All](#git-log-with-graph-and-one-line-and-decorate-and-all)
+  - [Git Log with Graph and One Line and Decorate and All and Date](#git-log-with-graph-and-one-line-and-decorate-and-all-and-date)
+  - [Git Log with Graph and One Line and Decorate and All and Date and Author](#git-log-with-graph-and-one-line-and-decorate-and-all-and-date-and-author)
+  - [Git Log with Graph and One Line and Decorate and All and Date and Author and Grep](#git-log-with-graph-and-one-line-and-decorate-and-all-and-date-and-author-and-grep)
+  - [Git Log with Graph and One Line and Decorate and All and Date and Author and Grep and Ignore Case](#git-log-with-graph-and-one-line-and-decorate-and-all-and-date-and-author-and-grep-and-ignore-case)
+  - [Git Log with Graph and One Line and Decorate and All and Date and Author and Grep and Ignore Case and Search Word](#git-log-with-graph-and-one-line-and-decorate-and-all-and-date-and-author-and-grep-and-ignore-case-and-search-word)
+  - [Git Log with Graph and One Line and Decorate and All and Date and Author and Grep and Ignore Case and Search Word and Search Word](#git-log-with-graph-and-one-line-and-decorate-and-all-and-date-and-author-and-grep-and-ignore-case-and-search-word-and-search-word)
+  - [Git Log with Graph and One Line and Decorate and All and Date and Author and Grep and Ignore Case and Search Word and Search Word and Search Word](#git-log-with-graph-and-one-line-and-decorate-and-all-and-date-and-author-and-grep-and-ignore-case-and-search-word-and-search-word-and-search-word)
 - [Git Branch](#git-branch)
     - [Creating Branch](#creating-branch)
     - [Switch to a Branch](#switch-to-a-branch)
@@ -60,6 +73,23 @@
 <br/>
 
 ## 1. Start Controlling With Git
+## [Local](#local)
+### [Git Initializing](#git-initializing)
+- ### [git init](#git-init)
+  - First of all you have to initialize git in that directory. For Initialize git in any directory follow the steps bellow.
+    ```git
+      git init
+    ```
+  - After having (.git) folder in your directory git wil start tracking all the changes in that directory.
+  - If you want to remove git from that directory then just delete the (.git) folder from that directory.
+
+- ### [Git Status: Inspecting a Repository](#git-status-inspecting-a-repository)
+  - The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven’t, and which files aren’t being tracked by Git. Status output does not show you any information regarding the committed project history. For this, you need to use git log.
+    ```git
+      git status
+    ```
+
+<br/>
 
 ## [Remote](#remote)
 ### [Git Connection to Local Project](#git-connect)
@@ -87,40 +117,23 @@
         git clone <remote_repo> <directory>
       ```
 - ### [Git Local to Remote Connect](#git-local-to-remote-connect)
-  - First create a new repository in GitHub with the name of branch is main, Then redirect to your local project and run the following command
-    ```git
-      git init
-      git add .
-      git commit -m "message"
-      git checkout -b main
-      git branch -D master
-      git remote add origin <remote_repo>
-      git push -u origin main
-    ```
-    - The following commend will add your project to GitHub repository in main branch and delete your local master branch.
+    - First create a new repository in GitHub with the name of branch is main, Then redirect to your local project and run the following command
+      ```git
+        git init
+        git add .
+        git commit -m "message"
+        git checkout -b main
+        git branch -D master
+        git remote add origin <remote_repo>
+        git push -u origin main
+      ```
+      - The following commend will add your project to GitHub repository in main branch and delete your local master branch.
   
 
 <br/>
 
 ### 1. <b>Git Initializing </b>
 
----
-
-<p>For Version Controlling with you have to initialize git in that directory. For Initialize git in any directory follow the steps bellow.</p>
-
-```git
-  git init
-```
-<p>This command will create a folder called (.git) in that directory</p>
-
-
-<br/>
-
-   
-
-<p>After having (.git) folder in your directory git wil start tracking all the changes in that directory.</p>
-
-<br/>
 <br/>
 
 <h1 align="center">Git Status : Inspecting a repository</h3>
